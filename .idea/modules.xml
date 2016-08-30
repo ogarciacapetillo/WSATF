@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WSATF.iml" filepath="$PROJECT_DIR$/WSATF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-builder/soap-builder.iml" filepath="$PROJECT_DIR$/soap-builder/soap-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-client/soap-client.iml" filepath="$PROJECT_DIR$/soap-client/soap-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-common/soap-common.iml" filepath="$PROJECT_DIR$/soap-common/soap-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-legacy/soap-legacy.iml" filepath="$PROJECT_DIR$/soap-legacy/soap-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-server/soap-server.iml" filepath="$PROJECT_DIR$/soap-server/soap-server.iml" />
     </modules>
   </component>
 </project>

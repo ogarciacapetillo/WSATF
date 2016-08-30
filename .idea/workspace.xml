@@ -1,11 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f52b0975-6c81-4aa2-abb2-b01299c5883a" name="Default" comment="" />
+    <list default="true" id="f52b0975-6c81-4aa2-abb2-b01299c5883a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/soap-common/soap-common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/app/testbase/BuilderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/PropertyLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/WSATF.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/SoapBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/SoapBuilderFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/SoapOperation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/SoapOperationBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/SoapOperationFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/core/SoapBuilderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/core/SoapOperationFinderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/core/SoapOperationImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/core/SoapUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/core/Wsdl$SoapBuilderFinderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/classes/org/reficio/ws/builder/core/Wsdl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/DefinitionSaveTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/MessageComplianceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/ServiceComplianceTest$MessageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/ServiceComplianceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/SoapBuilderImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/SoapOperationFinderImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-builder/target/test-classes/org/reficio/ws/builder/WsdlTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/SoapClientException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/TransmissionException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/Security$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/Security$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/Security.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SecurityFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SoapClient$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SoapClient$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SoapClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SoapClientFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SoapConstants$AuthMethod.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/core/SoapConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/ssl/MultiX509TrustManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/classes/org/reficio/ws/client/ssl/SSLUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-client/target/test-classes/org/reficio/ws/client/SimpleClientTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/AbstractSoapVersion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/DefinitionLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SampleXmlUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SchemaDefinitionWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SchemaLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SchemaUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapLegacyFacade$Soap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapLegacyFacade.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapMessageBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapVersion$Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapVersion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapVersion11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/SoapVersion12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/UrlSchemaLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlSettings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlUtils$Soap11Header.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlUtils$Soap12Header.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlUtils$SoapHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/WsdlValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/XmlUtils$ElementNodeList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-legacy/target/classes/org/reficio/ws/legacy/XmlUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/OperationNotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/ServiceRegistrationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/SoapServerException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/core/SoapServer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/core/SoapServer$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/core/SoapServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/core/SoapServerConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/core/SoapServerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/endpoint/ContextEndpointAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/endpoint/ContextPayloadEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/endpoint/GenericContextDomEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/endpoint/GenericEndpointMapping.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/endpoint/GenericSoapMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/AggregatingVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/BindingOperationVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/SoapOperationMatcher$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/SoapOperationMatcher$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/SoapOperationMatcher$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/SoapOperationMatcher$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/matcher/SoapOperationMatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/protocol/GenericSoapMessageFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/protocol/SimpleSoapProtocolChooser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/protocol/SoapProtocolChooser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/responder/AbstractResponder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/responder/AutoResponder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/classes/org/reficio/ws/server/responder/RequestResponder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/PasswordLessKeystoreTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/SimpleServerTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/SimpleServerTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/SimpleServerTest$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/SimpleServerTest$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/SimpleServerTest$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/soap-server/target/test-classes/org/reficio/ws/server/SimpleServerTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WSATF.iml" afterPath="$PROJECT_DIR$/WSATF.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-builder/soap-builder.iml" afterPath="$PROJECT_DIR$/soap-builder/soap-builder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-client/soap-client.iml" afterPath="$PROJECT_DIR$/soap-client/soap-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-legacy/soap-legacy.iml" afterPath="$PROJECT_DIR$/soap-legacy/soap-legacy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-server/pom.xml" afterPath="$PROJECT_DIR$/soap-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-server/soap-server.iml" afterPath="$PROJECT_DIR$/soap-server/soap-server.iml" />
+    </list>
     <ignored path="WSATF.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/soap-client/target/" />
+    <ignored path="$PROJECT_DIR$/soap-server/target/" />
+    <ignored path="$PROJECT_DIR$/soap-builder/target/" />
+    <ignored path="$PROJECT_DIR$/soap-legacy/target/" />
+    <ignored path="$PROJECT_DIR$/soap-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +140,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/utils/PropertyLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1997#2005#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuilderFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/app/testbase/BuilderFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soap-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -33,11 +183,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SoapServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/soap-server/src/main/java/org/reficio/ws/server/core/SoapServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/app/utils/PropertyLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/WSATF.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/app/testbase/BuilderFactory.java" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -46,6 +226,11 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1912" />
@@ -53,14 +238,14 @@
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -112,6 +297,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -130,6 +323,188 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WSATF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -137,8 +512,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39195403" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\WSATF\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -395,6 +775,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -403,7 +784,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -428,8 +809,69 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WSATF.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/utils/PropertyLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1997#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-server/src/main/java/org/reficio/ws/server/core/SoapServerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-server/src/main/java/org/reficio/ws/server/protocol/GenericSoapMessageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/app/testbase/BuilderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-server/src/main/java/org/reficio/ws/server/core/SoapServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -443,7 +885,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39195403" />
               </list>
             </option>
           </splitter-proportions>
@@ -467,7 +909,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39195403" />
               </list>
             </option>
           </splitter-proportions>
@@ -479,7 +921,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39195403" />
               </list>
             </option>
           </splitter-proportions>
@@ -487,11 +929,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>WSATF</last-edited>
+          <last-edited>soap-builder</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39195403" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -511,10 +954,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.codehaus.groovy:groovy-json:2.4.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.39195403" />
               </list>
             </option>
           </splitter-proportions>

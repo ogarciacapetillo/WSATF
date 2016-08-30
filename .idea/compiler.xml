@@ -22,10 +22,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="soap-builder" />
+        <module name="soap-client" />
+        <module name="soap-common" />
+        <module name="soap-legacy" />
+        <module name="soap-server" />
         <module name="WSATF" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="soap-builder" target="1.5" />
+      <module name="soap-client" target="1.5" />
+      <module name="soap-common" target="1.5" />
+      <module name="soap-legacy" target="1.5" />
+      <module name="soap-server" target="1.5" />
       <module name="WSATF" target="1.5" />
     </bytecodeTargetLevel>
   </component>
